@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+this is my study repository about docker
 
-Things you may want to cover:
+### environment
+- ruby on rails
+- docker
+- docker-compose
+- travis ci
 
-* Ruby version
+### start
+- first
+you should clone this repository
+```
+git clone git@github.com:yukimurasawa/docker_tr.git
+```
 
-* System dependencies
+- second 
+build docker image
+```
+docker-compose up --build -d
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- run container
+```
+docker-compose exec web bash
+```
